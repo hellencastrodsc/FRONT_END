@@ -1,0 +1,160 @@
+body {
+	background-color: rgb(229, 222, 194);
+	font-family: 'Open Sans',Arial,sans-serif;
+}
+
+header div {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 80px;
+	margin-inline-start: 250px;
+}
+
+div h2 {
+	display: flex;
+	align-items: flex-end;
+	font-weight: bold;
+	margin-inline-start: 50px;
+	margin-inline-end: 30px;
+}
+
+.cabecalhoPrincipal-nav-link:hover {
+	color: #a61a73;
+}
+
+.divBusca{
+	display: flex;
+	align-items: center;
+	margin-inline-end: 20px;
+	width: 180px;
+	height:80px;
+  }
+
+  .txtBusca{
+	background-color: #faf6f9;
+	border-color: rgb(151, 151, 156);
+	padding-left:5px;
+	font-size:16px;
+	border-radius: 10px;
+	width: 180px;
+	height:23px;
+  }
+  .txtBusca:hover{
+	  border-color: #a61a73;
+  }
+  .btnBusca:hover{
+	  background: #a61a73;
+  }
+  .btnBusca{
+	display: block;
+	border-color: transparent;
+	height:29px;
+	border-radius:0 10px 10px 0;
+	font-weight: 800;
+	color: white;
+	background:rgb(151, 151, 156);
+	position: relative;
+	left: -30px;
+  }
+
+.cabecalhoPrincipal-titulo a:before {
+	content: '';
+	display: block;
+	width: 50px;
+	height: 50px;
+	background-image: url(amo.png);
+	background-repeat: no-repeat;
+	background-size: 45px 50px;
+}
+
+div nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 600px;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.cabecalhoPrincipal-titulo a {
+	text-decoration: none;
+	color: #a61a73;
+}
+.cabecalhoPrincipal-nav-link {
+	color: rgb(151, 151, 156);
+	text-decoration: none;
+}
+
+.fundo {
+	height: 50%;
+  }
+
+.texto {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	font-size: 50px;
+	color: #a61a73;
+  }
+
+.hero-imagem {
+	background-image: url(foto.JPG);
+	width: 100%;
+	height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+div img{
+	width: 400px;
+	height: 300px;
+	border-radius: 30px 30px 0 0;
+}
+.card-img-top:hover{
+	box-shadow:
+                4px 4px #a61a73,
+                4px 4px #a61a73,
+                4px 4px #a61a73;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
+.card-group{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 400px;
+	margin-top: 50px;
+}
+.card{
+	width: 380px;
+	height: 400px;
+}
+
+h3{
+	font-weight: bold;
+	margin-inline-start: 5px;
+}
+.card-text{
+	text-align: justify;
+	margin-inline-start: 5px;
+	margin-inline-end: 5px;
+}
+.card-body{
+	display: flex;
+	flex-direction: column;
+	border-radius: 0 0 10px 10px;
+	justify-content: space-around;
+	background-color: transparent;
+	opacity:0.5;
+	width: 400px;
+	height: 100px;
+}
+.card-body:hover{
+	background: rgb(151, 151, 156);
+	opacity:1;
+	transition: 1.3s;
+}
